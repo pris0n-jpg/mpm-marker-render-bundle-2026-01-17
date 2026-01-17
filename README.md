@@ -7,6 +7,7 @@
 - FEM/MPM 中 advect_points（剪切导致点拉成椭圆的实现逻辑）
 
 ## Included files
+- `fem_compute_merged.py` (FEM 计算核心模块合并版：FemSolver/FEMSimulator/MarkerInterp 等；便于一次性上传给 AI 阅读)
 - `mpm_compute_merged.py` (MPM 计算核心模块合并版：solver/contact/surface_mesh 等；便于一次性上传给 AI 阅读)
 - `xengym/marker_appearance.py` (random_ellipses 生成; attenuation texture 语义)
 - `example/mpm_xensim_triplet_runner.py` (A/B/C 生成 + motion_diagnostics pseudo-hole)
