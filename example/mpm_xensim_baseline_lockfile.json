@@ -1,0 +1,17 @@
+{
+  "schema": "mpm_xensim_baseline_lockfile/v1",
+  "calibrate_file": "xensim/examples/calib_table.npz",
+  "fem_file": "xengym/assets/data/fem_data_gel_2035.npz",
+  "xensim_bg_mode": "flat",
+  "mpm_light_profile": "publish_v1",
+  "preset": "publish_v1",
+  "steps": 90,
+  "record_interval": 1,
+  "keyframes": [17, 18, 19, 20, 21, 22, 23, 24, 75, 80, 85],
+  "expected": {
+    "gel_size_mm": [17.3, 29.15],
+    "rgb_size": [400, 700],
+    "marker_tex_size": [320, 560],
+    "xensim_git_head": "34cd99f4f7bf609a392bced2534924d686135060"
+  }
+}
